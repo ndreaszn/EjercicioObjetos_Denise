@@ -16,10 +16,7 @@ public class Campeon {
     public Habilidad E;
     public Habilidad R;
 
-    public Campeon(String nombre, String rolPrincipal, String dificultad, String recurso,
-                   int vidaMaxima, int danoAtaque, int poderHabilidad, int armadura,
-                   int resistenciaMagica, Habilidad pasiva, Habilidad Q, Habilidad W,
-                   Habilidad E, Habilidad R) {
+    public Campeon(String nombre, String rolPrincipal, String dificultad, String recurso, int vidaMaxima, int danoAtaque, int poderHabilidad, int armadura, int resistenciaMagica, Habilidad pasiva, Habilidad Q, Habilidad W, Habilidad E, Habilidad R) {
         this.nombre = nombre;
         this.rolPrincipal = rolPrincipal;
         this.dificultad = dificultad;
